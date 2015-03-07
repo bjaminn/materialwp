@@ -136,7 +136,7 @@ add_filter( 'the_content_more_link', 'modify_read_more_link' );
  */
 function custom_edit_post_link($output) {
 
- $output = str_replace('class="post-edit-link"', 'class="btn btn-danger btn-xs post-edit-link"', $output);
+ $output = str_replace('class="post-edit-link"', 'class="btn btn-material-indigo btn-xs post-edit-link"', $output);
  return $output;
 }
 add_filter('edit_post_link', 'custom_edit_post_link');
